@@ -1,0 +1,18 @@
+.navheader{
+   display: flex;
+   justify-content: center;
+   background-color: var(--color-navbar);
+}
+
+.navheader a{
+    color: var(--color-header);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+.navheader a:hover{
+    background-color: var(--color-navbar-hover);
+}
+
+
+
